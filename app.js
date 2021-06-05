@@ -4,7 +4,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan'); // 로그 기록
 const layouts = require('express-ejs-layouts');
-const dotenv = require('dotenv'); // 보안과 편의를 위해 환경변수 파일 관리`
+const dotenv = require('dotenv'); // 보안과 편의를 위해 환경변수 파일 관리` ㅁ
 
 
 dotenv.config(); // .env 파일로부터 환경변수를 읽어서 process.env로 설정
